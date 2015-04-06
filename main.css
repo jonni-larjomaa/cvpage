@@ -1,0 +1,232 @@
+/*
+Color Scheme link: http://colorschemedesigner.com/csd-3.5/#3321ThWs0g0g0
+
+*/
+
+*
+{
+	color: #2A7E5A;
+}
+
+footer 
+{
+	clear: both;
+	font-size: 14px;
+	font-weight: bold;
+	border-top: 1px solid #5BB38D;
+	text-align: center;
+	padding: 20px;
+}
+
+@media (min-width: 768px ){
+
+	img.profile_image
+	{
+		position: absolute;
+		top: 80px;
+		left: 50%;
+		width: 100px;
+		height: 100px;
+		margin-top: -50px; /* Half the height */
+		margin-left: -50px; /* Half the width */
+		border: 5px solid white;
+	}
+
+	div.header-upper
+	{
+		background-color: #fff;
+		width: 100%;
+		padding: 20px;
+	}
+
+	div.header-upper .cv
+	{
+		float: right; !important
+	}
+
+	div.header-upper .name
+	{
+		text-align: left;
+	}
+
+	div.header-lower
+	{
+		border-top: 3px solid #439974;
+		border-bottom: 3px solid #439974;
+		/*background-color: #65B391;*/
+		padding: 45px 0px;
+		margin-bottom: 25px;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 521px) {
+	
+	img.profile_image
+	{
+		position: absolute;
+		top: 100px;
+		left: 50%;
+		width: 100px;
+		height: 100px;
+		margin-top: -50px; /* Half the height */
+		margin-left: -50px; /* Half the width */
+		border: 5px solid white;
+	}
+
+	div.header-upper .cv
+	{
+		float: right; !important
+	}
+
+	div.header-upper .name
+	{
+		text-align: left;
+	}
+
+	div.header-lower
+	{
+		border-top: 3px solid #439974;
+		border-bottom: 3px solid #439974;
+		margin-top: 60px;
+		padding: 45px 0px;
+	}
+
+}
+
+@media (max-width: 520px) {
+	
+	img.profile_image
+	{
+		position: absolute;
+		top: 140px;
+		left: 50%;
+		width: 100px;
+		height: 100px;
+		margin-top: -50px; /* Half the height */
+		margin-left: -50px; /* Half the width */
+		border: 5px solid white;
+	}
+
+	div.header-upper .cv
+	{
+		float: left; !important
+	}
+
+	div.header-upper .name
+	{
+		text-align: left;
+	}
+
+	div.header-lower
+	{
+		border-top: 3px solid #439974;
+		border-bottom: 3px solid #439974;
+		margin-top: 100px;
+		padding: 45px 0px;
+	}
+
+}
+
+div.content
+{
+	padding: 10px;
+}
+
+div.content h4,
+span.fa
+{
+	color: #DF8662;
+}
+
+span.fa
+{
+	margin-right: 15px;
+}
+
+.work ul,
+.education ul
+{
+	list-style: none;
+	clear: both;
+}
+
+.work ul li,
+.education ul li
+{
+	clear: both;
+	display: block;
+}
+
+.contact-item
+{
+	padding: 5px;	
+}
+
+.contact-item .icon
+{
+	font-size: 18px;
+	width: 45px;
+}
+
+.social-icons
+{
+	font-size: 24px;
+}
+
+span.fabo:hover
+{
+	color: #3b5998;
+}
+
+span.plus:hover
+{
+	color: #f90101;
+}
+
+span.linkedin:hover
+{
+	color: #4875b4;
+}
+
+span.whatsapp:hover
+{
+	color: #64d448;
+}
+
+span.github:hover
+{
+	color: #000000;
+}
+
+.year
+{
+	font-weight: bold;
+}
+
+.cv,
+.name
+{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.whoiam
+{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.section
+{
+	margin-bottom: 50px;
+}
+
+.navbar
+{
+	margin: 0px;
+}
+
+.btn 
+{
+	background-color: #439974;
+}
