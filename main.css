@@ -25,10 +25,10 @@ footer
 		position: absolute;
 		top: 80px;
 		left: 50%;
-		width: 100px;
-		height: 100px;
-		margin-top: -50px; /* Half the height */
-		margin-left: -50px; /* Half the width */
+		width: 120px;
+		height: 120px;
+		margin-top: -60px; /* Half the height */
+		margin-left: -60px; /* Half the width */
 		border: 5px solid white;
 	}
 
@@ -226,7 +226,35 @@ span.github:hover
 	margin: 0px;
 }
 
+.muted
+{
+    font-weight: normal;
+    font-size: 0.75em;
+    color: grey;
+}
+
 .btn 
 {
 	background-color: #439974;
+        color: #fff;
+        margin: 5px;
+}
+
+.btn:hover
+{
+    color: #2A7E5A;
+    background-color: #fff;
+    border: 1px solid #439974;
+}
+
+.language-items ul
+{
+    list-style: none;
+}
+
+.language-items ul li
+{
+    display: block;
+    padding: 5px;
+    font-weight: bold;
 }
